@@ -1,4 +1,4 @@
-import { StyleSheet, SafeAreaView, Image, TextInput, Pressable, View, Text } from "react-native";
+import { StyleSheet, SafeAreaView, Image, TextInput, Pressable, Text } from "react-native";
 
 export default function LoginPage(){
     return(
