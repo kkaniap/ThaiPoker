@@ -20,13 +20,14 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     logo: {
-        width: '60%',
-        height: '30%'
+        marginTop: 15,
+        width: '30%',
+        height: '50%'
     },
     usernameInput: {
-        marginTop: 10,
+        marginTop: 20,
         paddingLeft: 10,
-        width: '70%',
+        width: '50%',
         height: 50,
         color: 'white',
         borderColor: '#000000',
