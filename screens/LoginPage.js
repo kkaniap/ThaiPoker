@@ -1,15 +1,35 @@
-import { StyleSheet, SafeAreaView, Image, TextInput, Pressable, Text } from "react-native";
+import {
+  StyleSheet,
+  SafeAreaView,
+  Image,
+  TextInput,
+  Pressable,
+  Text,
+} from "react-native";
 
-export default function LoginPage(){
-    return(
-        <SafeAreaView style={styles.logoContainer}>
-            <Image source={require('../assets/images/logo.png')} style={styles.logo}/>
-            <TextInput style={styles.usernameInput} placeholder="Username" placeholderTextColor="#adadad"/>
-            <Pressable style={({pressed}) => pressed ? [styles.joinButton, styles.joinButtonPressed] : styles.joinButton }>
-                    <Text style={styles.joinButtonText}>Join</Text>
-            </Pressable>
-        </SafeAreaView>
-    );
+export default function LoginPage() {
+  return (
+    <SafeAreaView style={styles.logoContainer}>
+      <Image
+        source={require("../assets/images/logo.png")}
+        style={styles.logo}
+      />
+      <TextInput
+        style={styles.usernameInput}
+        placeholder="Username"
+        placeholderTextColor="#adadad"
+      />
+      <Pressable
+        style={({ pressed }) =>
+          pressed
+            ? [styles.joinButton, styles.joinButtonPressed]
+            : styles.joinButton
+        }
+      >
+        <Text style={styles.joinButtonText}>Join</Text>
+      </Pressable>
+    </SafeAreaView>
+  );
 }
 
 const styles = StyleSheet.create({
