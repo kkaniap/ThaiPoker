@@ -33,39 +33,40 @@ export default function LoginPage() {
 }
 
 const styles = StyleSheet.create({
-  logoContainer: {
-    width: "100%",
-    height: "100%",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  logo: {
-    width: "60%",
-    height: "30%",
-  },
-  usernameInput: {
-    marginTop: 10,
-    paddingLeft: 10,
-    width: "70%",
-    height: 50,
-    color: "white",
-    borderColor: "#000000",
-    borderWidth: 1,
-    borderRadius: 10,
-    backgroundColor: "rgba(0, 0, 0, .3)",
-  },
-  joinButton: {
-    marginTop: 10,
-    width: "70%",
-    height: 50,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  joinButtonText: {
-    color: "white",
-    fontSize: 25,
-  },
-  joinButtonPressed: {
-    opacity: 0.5,
-  },
+    logoContainer:{
+        width: '100%',
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    logo: {
+        marginTop: 15,
+        width: '30%',
+        height: '50%'
+    },
+    usernameInput: {
+        marginTop: 20,
+        paddingLeft: 10,
+        width: '50%',
+        height: 50,
+        color: 'white',
+        borderColor: '#000000',
+        borderWidth: 1,
+        borderRadius: 10,
+        backgroundColor: 'rgba(0, 0, 0, .3)'
+    },
+    joinButton: {
+        marginTop: 10,
+        width: '70%',
+        height: 50,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    joinButtonText:{
+        color: 'white',
+        fontSize: 25
+    },
+    joinButtonPressed: {
+        opacity: .5
+    }
 });
